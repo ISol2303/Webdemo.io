@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Webdemo.io/static/css/main.fa91b584.css",
+    "main.js": "/Webdemo.io/static/js/main.235f333c.js",
+    "static/js/453.7a0aa3e7.chunk.js": "/Webdemo.io/static/js/453.7a0aa3e7.chunk.js",
+    "index.html": "/Webdemo.io/index.html",
+    "main.fa91b584.css.map": "/Webdemo.io/static/css/main.fa91b584.css.map",
+    "main.235f333c.js.map": "/Webdemo.io/static/js/main.235f333c.js.map",
+    "453.7a0aa3e7.chunk.js.map": "/Webdemo.io/static/js/453.7a0aa3e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa91b584.css",
+    "static/js/main.235f333c.js"
+  ]
+}
