@@ -1,0 +1,86 @@
+/* Default styles for all devices */
+.App {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 10px 40px;
+  list-style-type: none;
+}
+
+.contact-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.hotline-button {
+  background-color: #e74c3c;
+}
+
+.hotline-button:hover {
+  background-color: #c0392b;
+}
+
+.zalo-button {
+  background-color: #7465d5;
+}
+
+.zalo-button:hover {
+  background-color: #7465d5;
+}
+
+/* Media queries for phones */
+@media (min-width: 430px)and(max-width: 768px) {
+  .App {
+    text-align: left; /* Adjust alignment for smaller screens */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: center; /* Center items in the navigation vertically */
+    margin: 10px; /* Reduce horizontal margin */
+  }
+
+  .contact-buttons {
+    right: 10px; /* Adjust position to closer to the right edge */
+    bottom: 10px; /* Adjust position closer to the bottom */
+  }
+
+  .contact-button {
+    padding: 10px 15px; /* Reduce padding for smaller buttons */
+    font-size: 14px; /* Decrease font size for smaller buttons */
+  }
+}
+
+/* Media queries for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav ul {
+    margin: 10px 20px; /* Adjust margin for tablets */
+  }
+}

@@ -1,0 +1,14 @@
+[
+  { "name": "24k", "priceIn": 79.765, "priceOut": 78.765, "description": "vàng miếng", "img": "../images/Vang24k.jpg" },
+  { "name": "18k", "priceIn": 69.765, "priceOut": 68.765,"discount":20, "description": "vàng nhẫn", "img": "../images/Vang18k.jpg" },
+  { "name": "10k", "priceIn": 59.765, "priceOut": 58.765, "description": "vàng trang sức", "img": "../images/Vang10k.jpg" },
+  { "name": "14k", "priceIn": 64.765, "priceOut": 63.765,"discount":20, "description": "vàng trắng", "img": "../images/Vang14k.jpg" },
+  { "name": "16k", "priceIn": 66.765, "priceOut": 65.765, "description": "vàng cổ điển", "img": "../images/Vang16k.jpg" },
+  { "name": "22k", "priceIn": 76.765, "priceOut": 75.765, "description": "vàng tinh khiết", "img": "../images/Vang22k.jpg" },
+  { "name": "20k", "priceIn": 72.765, "priceOut": 71.765,"discount":20, "description": "vàng nguyên chất", "img": "../images/Vang20k.jpg" },
+  { "name": "19k", "priceIn": 71.765, "priceOut": 70.765, "description": "vàng pha lê", "img": "../images/Vang19k.jpg" },
+  { "name": "21k", "priceIn": 74.765, "priceOut": 73.765, "description": "vàng kim loại", "img": "../images/Vang21k.jpg" },
+  { "name": "23k", "priceIn": 78.765, "priceOut": 77.765,"discount":20, "description": "vàng nguyên chất", "img": "../images/Vang23k.jpg" },
+  { "name": "17k", "priceIn": 68.765, "priceOut": 67.765, "description": "vàng ròng", "img": "../images/Vang17k.jpg" },
+  { "name": "15k", "priceIn": 65.765, "priceOut": 64.765, "description": "vàng đúc", "img": "../images/Vang15k.jpg" }
+]

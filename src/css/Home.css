@@ -1,0 +1,154 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Image slider styles */
+.image-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-slider-wrapper {
+  display: flex;
+  transition: transform 2s ease-in-out;
+  width: 100%;
+}
+
+.image-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.image-slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* CSS cho thanh tìm kiếm */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  height: 42px;
+}
+
+.search-bar button {
+  padding: 10px 20px; /* Giữ padding của button */
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  height: 42px; /* Đặt chiều cao của button bằng chiều cao của input */
+  box-sizing: border-box; /* Đảm bảo padding và border được tính trong chiều cao */
+}
+
+.search-bar button:hover {
+  background-color: #99ff00a7;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Product card styles */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #eeeaea;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card-body {
+  padding: 20px;
+}
+
+.product-card-body h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.product-card-body p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.product-card-body .price {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card-body button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card-body button:hover {
+  background-color: #99ff00a7;
+    color: black;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 200px;
+  }
+
+  .image-slide img {
+    height: 300px;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+}
